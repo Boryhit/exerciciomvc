@@ -1,4 +1,4 @@
-import { Country } from '../models/countryModel';
+import type { Country } from '../models/countryModel';
 
 interface Props {
   countries: Country[];

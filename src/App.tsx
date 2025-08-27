@@ -1,5 +1,5 @@
-import { useCountryController } from './controllers/countryController';
-import CountryListView from './views/CountryListView';
+import { useCountryController } from './controllers/countryController.js';
+import CountryListView from './views/CountryListView.js';
 
 function App() {
   const { countries, search, setSearch, region, setRegion } = useCountryController();

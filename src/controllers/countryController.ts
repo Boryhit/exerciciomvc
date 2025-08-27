@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { Country } from '../models/countryModel';
+import type { Country } from '../models/countryModel';
 import { fetchCountries } from '../services/countryService';
 
 export function useCountryController() {

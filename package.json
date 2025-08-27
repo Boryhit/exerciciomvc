@@ -1,26 +1,16 @@
 {
-  "name": "exerciciomvc",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "type": "commonjs",
+  "name": "frontend",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "@types/express": "^5.0.3",
-    "@types/node": "^24.3.0",
     "axios": "^1.11.0",
-    "express": "^5.1.0",
-    "nodemon": "^3.1.10",
-    "ts-node": "^10.9.2",
-    "typescript": "^5.9.2",
     "react": "^19.1.1",
     "react-dom": "^19.1.1"
   },
